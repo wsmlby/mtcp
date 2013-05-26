@@ -1,0 +1,41 @@
+{
+  "name": "mctp",
+  "preferGlobal": true,
+  "version": "0.1.1",
+  "author": "wsmlby <wsmlby@gmail.com>",
+  "description": "tcp over multi-tcp-connections",
+  "contributors": [ 
+    {
+      "name": "wsmlby",
+      "email": "wsmlby@gmail.com"
+    } 
+  ],
+  "scripts":{
+    "testcli":"node ./test/cli-server.js",
+    "testser":"node ./test/ser-server.js"
+  },
+  "main": "./lib/mtcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsmlby/mtcp.git"
+  },
+  "keywords": [
+    "multi",
+    "stream",
+    "over",
+    "socket",
+    "tcp"
+  ],
+  "dependencies" : {
+  		 "socketpool":"*"
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.1"
+  }
+}
