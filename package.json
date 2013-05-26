@@ -11,8 +11,8 @@
     } 
   ],
   "scripts":{
-    "testcli":"node ./test/cli-server.js",
-    "testser":"node ./test/ser-server.js"
+    
+    "test":"node ./test/test.js"
   },
   "main": "./lib/mtcp",
   "repository": {
