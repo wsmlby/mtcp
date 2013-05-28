@@ -1,7 +1,7 @@
 {
   "name": "mtcp",
   "preferGlobal": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "tcp over multi-tcp-connections",
   "contributors": [ 
@@ -11,8 +11,8 @@
     } 
   ],
   "scripts":{
-    
-    "test":"node ./test/test.js"
+    //"start-client" : "node ./test/test.js" ,
+    //"start-server":"node ./test/test2.js"
   },
   "main": "./lib/mtcp",
   "repository": {
