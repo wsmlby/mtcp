@@ -1,7 +1,7 @@
 {
   "name": "mtcp",
   "preferGlobal": true,
-  "version": "0.1.4",
+  "version": "0.1.6",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "tcp over multi-tcp-connections",
   "contributors": [ 
@@ -32,6 +32,6 @@
   ],  
   "license": "MIT",
   "engines": {
-    "node": ">=0.1"
+    "node": ">=0.10"
   }
 }
