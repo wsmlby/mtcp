@@ -1,7 +1,7 @@
 {
   "name": "mtcp",
   "preferGlobal": true,
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "tcp over multi-tcp-connections",
   "contributors": [ 
@@ -23,7 +23,7 @@
     "tcp"
   ],
   "dependencies" : {
-  		 "socketpool":"*"
+  		 "socketpool":">=0.1.7"
   },
   "analyze": false,
   "devDependencies": {
