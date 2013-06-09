@@ -1,7 +1,7 @@
 {
   "name": "mtcp",
   "preferGlobal": true,
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "tcp over multi-tcp-connections",
   "contributors": [ 
